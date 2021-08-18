@@ -6,7 +6,7 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #333;
-  height: 15vh;
+  /* height: 15vh; */
   position: sticky;
   top:0;
 }
@@ -59,9 +59,13 @@ body {
      color: wheat;
  }
 
- .card > button {
-    margin-left: 15px;
-    margin-top: 49px;
+ .take-me-button{
+     display: flex;
+     justify-content: center;
+     margin-top: 5rem;
+ }
+
+ .take-me-button > button {
     padding: 0.8rem;
     font-size: 15px;
     font-weight: 600;
@@ -69,11 +73,15 @@ body {
     border: navajowhite;
  }
 
- .card > button:hover{
+ a {
+     text-decoration: none;
+ }
+
+ .take-me-button > button:hover{
      background-color: wheat;
  }
 
- .card > button > a {
+ .take-me-button > button > a {
      text-decoration: none;
      color: black;
  }
@@ -103,7 +111,7 @@ body {
  }
 
  .footer {
-     background-color: #071254;
+     background-color: rgb(63, 60, 60);
      height: 50vh;
      padding:1rem;
  }
@@ -115,7 +123,7 @@ body {
  }
 
  .projects {
-     background-color: #071254;
+     background-color:#071254;
      height: fit-content;
  }
 
@@ -138,7 +146,7 @@ body {
  }
 
  .card  {
-     background-color: black;
+     background-color:teal ;
      height: 50vh;
      border-radius: 8px;
 
@@ -146,7 +154,7 @@ body {
 
 
 
- .banner-text > h1 {
+ .banner-text > h1,h3 {
      text-align: center;
  }
 
@@ -161,6 +169,7 @@ body {
      align-items: center;
      justify-content: center;
      margin-top: 2rem;
+    
  }
 
  .contact-card{
@@ -175,7 +184,6 @@ body {
     float: right;
     display: block;
   }
-
 
 }
 
@@ -196,18 +204,15 @@ body {
   .card-container {
     grid-template-columns:60vw;
  }
+
+ 
  .footer > .coffee > h1 {
     font-size: 1.5rem;
 }
-.card > button {
-    margin-left: 2px;
-    margin-top: 30px;
-    padding: 0.2rem;
-    font-size: 15px;
-    font-weight: 600;
-    border-radius: 8px;
-    border: navajowhite;
-
- }
+.take-me-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+}
 
 }
