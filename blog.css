@@ -1,0 +1,16 @@
+html {
+    background-color: #071254;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: gold;
+    text-decoration: underline;
+}
+
+.card > .desc > span > a {
+    text-decoration: none;
+    color: goldenrod;
+}
