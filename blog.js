@@ -18,7 +18,12 @@ const blogs = [
         title : "Constructors in CPP",
         description : "Object-Oriented Programming is a paradigm of programming which is based on the concepts of Objects. It is a style of p...",
         link : "https://itskaush.hashnode.dev/constructors-in-c"
-    }
+    },
+    {
+        title : "Copy Constructors in Cpp",
+        description : "Copy constructors are constructors which are used to create an object as a copy of another object...",
+        link : "https://itskaush.hashnode.dev/copy-constructors-in-c"
+    } ,
 ]
 
 const blogContatiner = document.querySelector(".card-container")
