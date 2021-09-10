@@ -44,6 +44,7 @@ const createBlog = () => {
         let link = document.createElement("a")
         link.innerHTML = "Read More"
         link.setAttribute("href",blog.link)
+        link.setAttribute("target","_blank")
         readMore.appendChild(link)
         desc.appendChild(readMore)
         desc.className = "desc"
